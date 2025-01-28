@@ -12,11 +12,11 @@ lab<br clear="both">
 
 <div align="center">
   
-  ![Professor's 's GitHub stats](https://github-readme-stats.vercel.app/api?username=professor-lab\&rank_icon=percentile)
+  <img width=400 src='https://github-readme-stats.vercel.app/api?username=professor-lab&theme=vue-dark&show_icons=true&hide_border=true&count_private=true' />
   
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=professor-lab\&layout=pie)](https://github.com/professor-lab/github-readme-stats)
 
-![professor's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=professor-lab\&layout=compact)
+
 
 </div>
 
