@@ -36,11 +36,3 @@
 
 ###
 
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/parmar-viral/professor-lab/output/snake.svg" alt="Snake animation" />
-
-###
