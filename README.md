@@ -4,9 +4,6 @@ lab<br clear="both">
 
 ###
 
-<div align="center">
-  <img height="200" src="https://avatars.githubusercontent.com/u/82945313?v=4"  />
-</div>
 
 ###
 
