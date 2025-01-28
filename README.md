@@ -1,4 +1,4 @@
-<br clear="both">
+lab<br clear="both">
 
 <h1 align="center">Hi 👋! My name is Professor .</h1>
 
@@ -35,5 +35,5 @@
 </div>
 
 ###
-<img src="https://komarev.com/ghpvc/?username=madushadhanushka&color=brightgreen" alt="watching_count" />
+<img src="https://komarev.com/ghpvc/?username=professor-lab&color=brightgreen" alt="watching_count" />
 
