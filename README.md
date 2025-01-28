@@ -15,6 +15,9 @@ lab<br clear="both">
   ![Professor's 's GitHub stats](https://github-readme-stats.vercel.app/api?username=professor-lab\&rank_icon=percentile)
   
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=professor-lab\&layout=pie)](https://github.com/professor-lab/github-readme-stats)
+
+[![professor's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=professor-lab)](https://github.com/professor-lab/github-readme-stats)
+
 </div>
 
 ###
