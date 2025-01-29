@@ -3,9 +3,6 @@ lab<br clear="both">
 <h1 align="center">Hi 👋! My name is Professor .</h1>
 
 ###
-<img src="https://komarev.com/ghpvc/?username=professor-lab&color=brightgreen" alt="watching_count" />
-
-###
 
 <div align="center">
   
@@ -36,6 +33,4 @@ lab<br clear="both">
  
 </div>
 
-###
-<img src="https://komarev.com/ghpvc/?username=professor-lab&color=brightgreen" alt="watching_count" />
 
