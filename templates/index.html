@@ -2,9 +2,134 @@
 {% block title %} Home {% endblock title %}
 {% block body %}
 
-<div class="container mb-3 my-3 card border border-primary">
-  <h1>i am professor</h1>
+<div class="container mb-3 my-3 d-flex justify-content-between align-items-center">
+  <h1 class="text-center">I am Shakti</h1>
+  <img src="{{ url_for('static', filename='img/img5.jpg') }}" alt="Author Photo" class="rounded-circle" style="width: 50px; height: 50px;">
 </div>
+
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <img src="{{ url_for('static', filename='img/img4.jpg') }}" alt="School Photo" class="rounded-circle" style="width: 50px; height: 50px;">
+    </div>
+    <div class="timeline-content card">
+      <div class="card-body">
+        <h3 class="card-title">High School</h3>
+        <p class="card-text">Graduated from XYZ High School with honors in 2010.</p>
+      </div>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <img src="{{ url_for('static', filename='img/img5.jpg') }}" alt="College Photo" class="rounded-circle" style="width: 50px; height: 50px;">
+    </div>
+    <div class="timeline-content card">
+      <div class="card-body">
+        <h3 class="card-title">College</h3>
+        <p class="card-text">Completed Bachelor's degree in Computer Science from ABC University in 2014.</p>
+      </div>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <img src="{{ url_for('static', filename='img/img6.jpg') }}" alt="Masters Photo" class="rounded-circle" style="width: 50px; height: 50px;">
+    </div>
+    <div class="timeline-content card">
+      <div class="card-body">
+        <h3 class="card-title">Masters</h3>
+        <p class="card-text">Earned Master's degree in Software Engineering from DEF University in 2016.</p>
+      </div>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <img src="{{ url_for('static', filename='img/img7.jpg') }}" alt="Job Photo" class="rounded-circle" style="width: 50px; height: 50px;">
+    </div>
+    <div class="timeline-content card">
+      <div class="card-body">
+        <h3 class="card-title">First Job</h3>
+        <p class="card-text">Started working as a Software Developer at GHI Company in 2017.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.timeline {
+  position: relative;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #ddd;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.timeline-item:before,
+.timeline-item:after {
+  content: " ";
+  display: table;
+}
+
+.timeline-item:after {
+  clear: both;
+}
+
+.timeline-item .timeline-icon {
+  position: absolute;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 100;
+  box-shadow: 0 0 0 4px #ddd;
+}
+
+.timeline-item .timeline-content {
+  margin-left: 60px;
+  padding: 10px 20px;
+  background: #f5f5f5;
+  position: relative;
+  border-radius: 5px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  margin-left: 0;
+  margin-right: 60px;
+}
+
+.timeline-item:nth-child(even) .timeline-icon {
+  left: auto;
+  right: 50%;
+  margin-right: -25px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+</style>
 
 
 
