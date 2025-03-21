@@ -2,11 +2,44 @@
 {% block title %} Home {% endblock title %}
 {% block body %}
 
-<div class="container mb-3 my-3 d-flex justify-content-between align-items-center">
-  <h1 class="text-center">I am Shakti</h1>
-  <img src="{{ url_for('static', filename='img/img5.jpg') }}" alt="Author Photo" class="rounded-circle" style="width: 50px; height: 50px;">
-</div>
 
+<div class="container m-4 mb-3 my-3 d-flex justify-content-center align-items-center">
+  <img src="{{ url_for('static', filename='img/img5.jpg') }}" 
+  alt="Author Photo" class="rounded-circle" style="width: 100px; height: 100px;">
+  <h1 class="text-center m-4 mb-3 my-3 d-flex">Shakti Vanani</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card bg-transparent">
+        <div class="card-body">
+          <h2 class="card-title">About Me</h2>
+          <p class="card-text">
+            I am a software engineer with a passion for web development. I have experience in building web applications using
+            Python, Flask, and Django. I am also proficient in front-end technologies like HTML, CSS, and JavaScript. I am
+            currently working as a freelance web developer and looking for new opportunities to work on exciting projects.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card bg-transparent">
+        <div class="card-body ">
+          <h2 class="card-title">Skills</h2>
+          <ul class="card-text">
+            <li>Python</li>
+            <li>Flask</li>
+            <li>Django</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
