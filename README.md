@@ -19,15 +19,19 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=C" height="40" alt="c logo"  />
+  <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
    <img width="12" />
+   <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
+   <img width="12" />
   <img src="https://skillicons.dev/icons?i=tensorflow" height="40" alt="tensorflow"  />
    <img width="12" />
   <img src="https://skillicons.dev/icons?i=pytorch" height="40" alt="pytorch"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ubuntu" height="40" alt="ubuntu"  />
 
  
 </div>
